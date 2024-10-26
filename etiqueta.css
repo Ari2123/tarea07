@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    --color2:#fff;
+    --color3:#F294B6;
+}
+body{
+    width: 100%;
+    cursor: url(imagenes/Hello\ Kitty\ normal\ select.cur), auto;
+}
+main{
+    width:80%;
+    border: 3px solid var(--color3);
+    margin:25px auto;
+}
+#cabecera{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    background-color: var(--color3);
+}
+#cabecera h3{
+    color:white;
+    font-size: 30px;
+}
+#logo{
+    width:120px;
+}
+#logo img{
+    width:100%
+}
+nav{
+    border:3px solid var(--color3);
+    background-color: white;
+}
+.menu{
+    display:flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    height: 50px;
+}
+.menu li{
+    padding:5px
+}
+.menu li a{
+    text-decoration: none;
+    background-color:var(--color3);
+    color:white;
+    padding:5px;
+    font-weight: bold;
+    font-family: 'Arima';
+    font-style: normal;
+    font-weight: 100 700;
+    font-display: swap;
+    cursor: url(imagenes/Hello\ Kitty\ normal\ select.cur), auto;
+}
+.menu li a:hover{
+    background-color:white ;
+    color: rgb(211, 40, 160);
+}
+#principal{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;      
+
+}
+h1{
+    justify-content: center;
+    text-align: center;
+    border: 2px solid var(--color3);
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    font-size: 30px;
+    background-color: #F294B6;
+    font-family: 'Arima';
+    font-style: normal;
+    font-weight: 100 700;
+    font-display: swap;
+}
+.video{
+    border:1px solid var(--color3);
+    margin:20px;
+    padding:5px;
+}
+.video h3, aside h3{
+    text-align: center;
+    padding:5px;
+    background-color: var(--color3);
+    color:white;
+}
+aside{
+    border:1px solid var(--color3);
+    margin:20px;
+    padding:5px;
+    text-align: center;
+    background-color: #F294B6;
+}
+footer{
+    background-color:var(--color3);
+    color:white;
+    font-family: 'Arima';
+    font-style: normal;
+    font-weight: 100 700;
+    font-display: swap;
+}
+#copy{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding:10px;
+}
+address{
+    
+    margin:15px;
+    padding-left: 5cqmin;
+    font-size: 15px;
+    
+}
